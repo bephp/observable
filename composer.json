@@ -1,0 +1,18 @@
+{
+    "name": "bephp/observable",
+    "type": "library",
+    "description": "A observable trait",
+    "keywords": ["micro", "trait", "library"],
+    "homepage": "https://github.com/lloydzhou/observable",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls":"*",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "files": [ "observable.php" ]
+    }
+}
